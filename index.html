@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MJR10 – Portfolio</title>
+  <meta name="description" content="Marafa Jr – Professional football portfolio: highlights, career stats, CV and contact." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR (no logo) -->
+  <nav class="navbar" role="navigation" aria-label="Main">
+    <div class="nav-container">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#my-cv">My CV</a></li>
+        <li><a class="nav-link" href="#videos">Videos</a></li>
+        <li><a class="nav-link" href="#stats">Stats</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-inner">
+      <h1 class="hero-title">Marafa Jr</h1>
+      <p class="hero-tagline">
+        Welcome to my football journey where discipline, passion, and precision meet.
+        <br /><strong>Remember the name: Marafa Jr</strong>
+      </p>
+      </header>
+
+  <!-- my-cv -->
+
+  <section class="stats-section">
+  <div class="wrapper">
+
+
+<!-- Videos Section -->
+
+  <section id="videos" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Highlight Videos</h2>
+      <p class="section-subtitle">Tap any tile to open on Instagram.</p>
+      <div id="videoGrid" class="video-grid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Stats</h2>
+      
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Contact Me</h2>
+      <p>Phone: +234-8130700286</p>
+      <p>Email: ymarafajr10@gmail.com</p>
+      <p>Instagram: @marafa_jr_10 &nbsp;|&nbsp; TikTok: @marafa_jr &nbsp;|&nbsp; YouTube: MJR_10-8</p>
+
+      <form action="https://formspree.io/f/xeoznwwv" method="POST" class="contact-form">
+        <input type="text" name="Name" placeholder="Name" required />
+        <input type="email" name="Email" placeholder="Email" required />
+        <input type="text" name="Subject" placeholder="Subject" required />
+        <textarea name="Comment" placeholder="Comment" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Marafa Jr</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
+</body>
+</html>
